@@ -18,9 +18,14 @@ function Practice() {
   return (
     <div className="container Profile">
       <h1>On the Practice page!</h1>
-      <Link to="/practice"><button type="button" className="btn btn-primary">Practice</button></Link> 
-      <Link to="/createQuestions"><button type="button" className="btn btn-secondary">Create new Question</button> </Link> 
-      <Link to="/">Go home</Link>
+      <button type="button" className="btn btn-primary">Saved Easy</button>
+      <button type="button" className="btn btn-success">Random</button> 
+      <button type="button" className="btn btn-warning">Saved Hard</button> 
+      <container>
+        <p>Questions test goes here</p>
+        <button>save Easy</button>
+        <button>save Hard</button>
+      </container>
     </div>
   );
 }
