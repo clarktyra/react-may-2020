@@ -3,7 +3,7 @@ import API from "./../utils/API";
 import { Link } from "react-router-dom";
 import { useAuth } from "../utils/auth";
 
-function Profile() {
+function Practice() {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const { user } = useAuth();
@@ -17,7 +17,7 @@ function Profile() {
 
   return (
     <div className="container Profile">
-      <h1>On the notecards page!</h1>
+      <h1>On the Practice page!</h1>
       <Link to="/practice"><button type="button" className="btn btn-primary">Practice</button></Link> 
       <Link to="/createQuestions"><button type="button" className="btn btn-secondary">Create new Question</button> </Link> 
       <Link to="/">Go home</Link>
@@ -25,4 +25,4 @@ function Profile() {
   );
 }
 
-export default Profile;
+export default Practice;

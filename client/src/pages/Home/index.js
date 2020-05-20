@@ -13,8 +13,8 @@ function Home() {
   return (
     <div className="App">
       <div className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h2>Welcome {user.email}</h2>
+        
+        <h2>Welcome React NoteCards</h2>
       </div>
       <p className="App-intro">
         <button

@@ -8,6 +8,8 @@ import Login from "./pages/Login";
 import Profile from "./pages/Profile";
 import Signup from "./pages/Signup";
 import Home from "./pages/Home";
+import Practice from "./pages/Practice";
+import CreateQuestions from "./pages/CreateQuestions";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -28,6 +30,12 @@ function App() {
             </Route>
             <ProtectedRoute exact path="/profile">
               <Profile />
+            </ProtectedRoute>
+            <ProtectedRoute exact path="/practice">
+              <Practice />
+            </ProtectedRoute>
+            <ProtectedRoute exact path="/createQuestions">
+              <CreateQuestions />
             </ProtectedRoute>
           </Switch>
         </div>
